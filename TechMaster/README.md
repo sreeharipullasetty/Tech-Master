@@ -1,7 +1,7 @@
 # Hello Google App Engine for Java™
 
 [![Build
-Status](https://travis-ci.org/GoogleCloudPlatform/tech_master.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/tech_master)
+Status](https://travis-ci.org/GoogleCloudPlatform/appengine-try-java.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/appengine-try-java)
 
 This sample shows you how to deploy a simple "Hello World" application to
 [Google App Engine](https://cloud.google.com/appengine/docs/java/).
