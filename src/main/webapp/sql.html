@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>Tech Master</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <img src="tech_master_logo.PNG" style="width:30%;height:100%;margin-left:1%;margin-top:1%;"/>
+      <a href="https://www.facebook.com/" class="fa fa-facebook" style="margin-left:30%;"></a>
+      <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.gmail.com" class="fa fa-google"></a>
+      <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a>
+      <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+    </div>
+    
+    <br>
+    
+    <div class="leftPanel">
+      <div class="topics" >
+        <a href="java.html" class="linkStyle" >Java</a>
+      </div>
+      <div class="topics">
+        <a href="python.html" class="linkStyle">Python</a>
+      </div>
+      <div class="topics" >
+        <a href="node.html" class="linkStyle"  >Node JS</a>
+      </div>
+      <div class="topics">
+        <a href="" class="linkStyle">Angular</a>
+      </div>
+      <div class="topics" style="background-color: black;border-right: solid black 2px;">
+        <a href="sql.html" class="linkStyle" style="color:white;">SQL</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C++</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C#</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">React JS</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Spring</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Hibernate</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">DJango</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Java Script</a>
+      </div>
+    </div>
+    
+    <div class="mainPanel">
+      <div class="videoSection">
+        <div class="collapsible" id="subTopic">&nbsp;&nbsp;Introduction</div>
+      <br>
+     <iframe id="link" style="margin-left:3%;" width="94%" height="55%" src="https://www.youtube.com/embed/7S_tz1z_5bA?start=1&end=61" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>      
+      <div class="navSection" id="navigationSection">
+        <div class="collapsible" id="subTopic" style="width:100%;">&nbsp;&nbsp;</div>
+        <button onclick="pythonContent(1, 61,'Introduction')" class="navButtonStyle">Introduction</button>
+        <button onclick="pythonContent(62, 263,'What is SQL?')" class="navButtonStyle">What is SQL?</button>
+        <button onclick="pythonContent(264, 289,'Cheat Sheet')" class="navButtonStyle">Cheat Sheet</button>
+        <button onclick="pythonContent(290, 587,'Installing MySQL on Mac')" class="navButtonStyle">Installing MySQL on Mac</button>
+        <button onclick="pythonContent(588, 907,'Installing MySQL on Windows')" class="navButtonStyle">Installing MySQL on Windows</button>
+        <button onclick="pythonContent(908, 1419,'Creating the Databases for this Course')" class="navButtonStyle">Creating the Databases for this Course</button>
+        <button onclick="pythonContent(1420, 1769,'The SELECT Statement')" class="navButtonStyle">The SELECT Statement</button>
+        <button onclick="pythonContent(1770, 2297,'The SELECT Clause')" class="navButtonStyle">The SELECT Clause</button>
+        <button onclick="pythonContent(2298, 2614,'The WHERE Clause')" class="navButtonStyle">The WHERE Clause</button>
+        <button onclick="pythonContent(2615, 3025,'The AND, OR, and NOT Operators')" class="navButtonStyle">The AND, OR, and NOT Operators</button>
+        <button onclick="pythonContent(3026, 3097,'Announcement')" class="navButtonStyle">Announcement</button>
+        <button onclick="pythonContent(3098, 3280,'The IN Operator')" class="navButtonStyle">The IN Operator</button>
+        <button onclick="pythonContent(3281, 3412,'The BETWEEN Operator')" class="navButtonStyle">The BETWEEN Operator</button>
+        <button onclick="pythonContent(3413, 3750,'The LIKE Operator')" class="navButtonStyle">The LIKE Operator</button>
+        <button onclick="pythonContent(3751, 4310,'The REGEXP Operator')" class="navButtonStyle">The REGEXP Operator</button>
+        <button onclick="pythonContent(4311, 4457,'The IS NULL Operator')" class="navButtonStyle">The IS NULL Operator</button>
+        <button onclick="pythonContent(4458, 4882,'The ORDER BY Operator')" class="navButtonStyle">The ORDER BY Operator</button>
+        <button onclick="pythonContent(4883, 5089,'The LIMIT Operator')" class="navButtonStyle">The LIMIT Operator</button>
+        <button onclick="pythonContent(5090, 5595,'Inner Joins')" class="navButtonStyle">Inner Joins</button>
+        <button onclick="pythonContent(5596, 5762,'Joining Across Databases')" class="navButtonStyle">Joining Across Databases</button>
+        <button onclick="pythonContent(5763, 6016,'Self Joins')" class="navButtonStyle">Self Joins</button>
+        <button onclick="pythonContent(6017, 6422,'Joining Multiple Tables')" class="navButtonStyle">Joining Multiple Tables</button>
+        <button onclick="pythonContent(6423, 6643,'Compound Join Conditions')" class="navButtonStyle">Compound Join Conditions</button>
+        <button onclick="pythonContent(6644, 6783,'Implicit Join Syntax')" class="navButtonStyle">Implicit Join Syntax</button>
+        <button onclick="pythonContent(6784, 7170,'Outer Joins')" class="navButtonStyle">Outer Joins</button>
+        <button onclick="pythonContent(7171, 7549,'Outer Join Between Multiple Tables')" class="navButtonStyle">Outer Join Between Multiple Tables</button>
+        <button onclick="pythonContent(7550, 7681,'Self Outer Joins')" class="navButtonStyle">Self Outer Joins</button>
+        <button onclick="pythonContent(7682, 8004,'The USING Clause')" class="navButtonStyle">The USING Clause</button>
+        <button onclick="pythonContent(8005, 8085,'Natural Joins')" class="navButtonStyle">Natural Joins</button>
+        <button onclick="pythonContent(8086, 8280,'Cross Joins')" class="navButtonStyle">Cross Joins</button>
+        <button onclick="pythonContent(8281, 8788,'Unions')" class="navButtonStyle">Unions</button>
+        <button onclick="pythonContent(8789, 8993,'Column Attributes')" class="navButtonStyle">Column Attributes</button>
+        <button onclick="pythonContent(8994, 9339,'Inserting a Single Row')" class="navButtonStyle">Inserting a Single Row</button>
+        <button onclick="pythonContent(9340, 9537,'Inserting Multiple Rows')" class="navButtonStyle">Inserting Multiple Rows</button>
+        <button onclick="pythonContent(9538, 9890,'Inserting Hierarchical Rows')" class="navButtonStyle">Inserting Hierarchical Rows</button>
+        <button onclick="pythonContent(9891, 10417,'Creating a Copy of a Table')" class="navButtonStyle">Creating a Copy of a Table</button>
+        <button onclick="pythonContent(10418, 10652,'Updating a Single Row')" class="navButtonStyle">Updating a Single Row</button>
+        <button onclick="pythonContent(10653, 10846,'Updating Multiple Rows')" class="navButtonStyle">Updating Multiple Rows</button>
+        <button onclick="pythonContent(10847, 11183,'Using Subqueries in Updates')" class="navButtonStyle">Using Subqueries in Updates</button>
+        <button onclick="pythonContent(11184, 11267,'Deleting Rows')" class="navButtonStyle">Deleting Rows</button>
+        <button onclick="pythonContent(11268, 11419,'Restoring Course Databases')" class="navButtonStyle">Restoring Course Databases</button>
+
+      </div>
+      
+    </div>
+    
+
+    <div class="footer">
+      <div style="width:10%;background-color:#c2d6d6;height:90%;float:left;">
+      </div>
+      <div class="footerContent">
+        <div style="width:50%;height:100%;float:left;text-align: center;">
+          <h4><u><b>Languages</b></u></h4>
+          <h5>C</h5>
+          <h5>C++</h5>
+          <h5>Java</h5>
+          <h5>Python</h5>
+        </div>
+        <div style="width:50%;height:100%;float:left;text-align: center;">
+          <h4><u><b>Frameworks</b></u></h4>
+          <h5>Spring</h5>
+          <h5>Hibernet</h5>
+          <h5>Angular</h5>
+          <h5>DJango</h5>
+        </div>
+
+      </div>
+      <div style="width:10%;background-color:#c2d6d6;height:90%;float:left;">
+      </div>
+      <div style="vertical-align: middle;line-height:20%;text-align: center;color:black;">
+          © techmaster-257513.appspot.com,  All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

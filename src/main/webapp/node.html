@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>Tech Master</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    
+    <div class="header">
+      <img src="tech_master_logo.PNG" style="width:30%;height:100%;margin-left:1%;margin-top:1%;"/>
+      <a href="https://www.facebook.com/" class="fa fa-facebook" style="margin-left:30%;"></a>
+      <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.gmail.com" class="fa fa-google"></a>
+      <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a>
+      <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+    </div>
+    
+    <br>
+    
+    <div class="leftPanel">
+      <div class="topics" >
+        <a href="java.html" class="linkStyle" >Java</a>
+      </div>
+      <div class="topics">
+        <a href="python.html" class="linkStyle">Python</a>
+      </div>
+      <div class="topics" style="background-color: black;border-right: solid black 2px;">
+        <a href="node.html" class="linkStyle" style="color:white;" >Node JS</a>
+      </div>
+      <div class="topics">
+        <a href="" class="linkStyle">Angular</a>
+      </div>
+      <div class="topics">
+        <a href="sql.html" class="linkStyle">SQL</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C++</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">C#</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">React JS</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Spring</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Hibernate</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">DJango</a>
+      </div>
+      <div class="topics">
+        <a href="underConstruction.html" class="linkStyle">Java Script</a>
+      </div>
+    </div>
+    
+    <div class="mainPanel">
+      <div class="videoSection">
+        <div class="collapsible" id="subTopic">&nbsp;&nbsp;Introduction</div>
+      <br>
+     <iframe id="link" style="margin-left:3%;" width="94%" height="55%" src="https://www.youtube.com/embed/TlB_eWDSMt4?start=1&end=180" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>      
+      <div class="navSection" id="navigationSection">
+        <div class="collapsible" id="subTopic" style="width:100%;">&nbsp;&nbsp;</div>
+        <button onclick="nodeContent(1, 180,'What is Node')" class="navButtonStyle">What is Node</button>
+        <button onclick="nodeContent(181, 363,'Node Architecture')" class="navButtonStyle">Node Architecture</button>
+        <button onclick="nodeContent(364, 628,'How Node Works')" class="navButtonStyle">How Node Works</button>
+        <button onclick="nodeContent(629, 780,'Installing Node')" class="navButtonStyle">Installing Node</button>
+        <button onclick="nodeContent(781, 921,'Your First Node Program')" class="navButtonStyle">Your First Node Program</button>
+        <button onclick="nodeContent(922, 951,'Node Module System')" class="navButtonStyle">Node Module System</button>
+        <button onclick="nodeContent(952, 1153,'Global Object')" class="navButtonStyle">Global Object</button>
+        <button onclick="nodeContent(1154, 1370,'Modules')" class="navButtonStyle">Modules</button>
+        <button onclick="nodeContent(1371, 1654,'Creating a Module')" class="navButtonStyle">Creating a Module</button>
+        <button onclick="nodeContent(1655, 1978,'Loading a Module')" class="navButtonStyle">Loading a Module</button>
+        <button onclick="nodeContent(1979, 2392,'Module Wrapper Function')" class="navButtonStyle">Module Wrapper Function</button>
+        <button onclick="nodeContent(2393, 2642,'Path Module')" class="navButtonStyle">Path Module</button>
+        <button onclick="nodeContent(2643, 2901,'OS Module')" class="navButtonStyle">OS Module</button>
+        <button onclick="nodeContent(2902, 3193,'File System Module')" class="navButtonStyle">File System Module</button>
+        <button onclick="nodeContent(3194, 3572,'Events Module')" class="navButtonStyle">Events Module</button>
+        <button onclick="nodeContent(3573, 3762,'Event Arguments')" class="navButtonStyle">Event Arguments</button>
+        <button onclick="nodeContent(3763, 4245,'Extending EventEmitter')" class="navButtonStyle">Extending EventEmitter</button>
+        <button onclick="nodeContent(4246, 4695,'HTTP Module')" class="navButtonStyle">HTTP Module</button>
+      </div>
+      
+    </div>
+    
+
+    <div class="footer">
+      <div style="width:10%;background-color:#c2d6d6;height:90%;float:left;">
+      </div>
+      <div class="footerContent">
+        <div style="width:50%;height:100%;float:left;text-align: center;">
+          <h4><u><b>Languages</b></u></h4>
+          <h5>C</h5>
+          <h5>C++</h5>
+          <h5>Java</h5>
+          <h5>Python</h5>
+        </div>
+        <div style="width:50%;height:100%;float:left;text-align: center;">
+          <h4><u><b>Frameworks</b></u></h4>
+          <h5>Spring</h5>
+          <h5>Hibernet</h5>
+          <h5>Angular</h5>
+          <h5>DJango</h5>
+        </div>
+
+      </div>
+      <div style="width:10%;background-color:#c2d6d6;height:90%;float:left;">
+      </div>
+      <div style="vertical-align: middle;line-height:20%;text-align: center;color:black;">
+          © techmaster-257513.appspot.com,  All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>
